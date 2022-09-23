@@ -6,7 +6,7 @@ Meaning that a deck is the set of 52 unique combinations of rank + suit
 Create a deck class which:
 - Holds this set of 52 unique combinations of rank + suit
 - Can be shuffled to obtain a unique ordering of these cards
-- Can have cards removed from it (useful for when considering a card as being 'dealt')
+- Can have cards dealt from it (removes the card from its state)
 """
 
 class Deck:
